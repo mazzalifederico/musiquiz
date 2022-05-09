@@ -46,3 +46,8 @@ body {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+nav {
+	font-family: 'Koulen';
+	color:black;
+	text-decoration: none;
+}
