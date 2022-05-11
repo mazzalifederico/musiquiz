@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f225bbfa4a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,25 +28,16 @@
         <section>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">MusiQuiz</a>
-                    
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            MusiCategorie
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </div>
-                    
+                    <i class="fa-solid fa-music"></i>
+
                     <div class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link blacklink" href="#">Commenti</a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link blacklink" href="#">About us</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link disabled blacklink" href="#">PvP</a>
                     </div>
                 </div>
             </nav>
@@ -66,13 +58,48 @@
 
         <h2>MUSICATEGORIE</h2>
         <section id="categorie">
+            <p> Selezionando una delle seguenti Musicategorie inizierai una partita con domande relative al genere selezionato. Ogni quiz è composto da 15 domande in cui dovrai mettere alla prova le tue conoscenze sulla musica. Ah e non dimenticare di cliccare il tasto SUBMIT per controllare il tuo punteggio! </p>
             <a class="btn btn-danger btn-lg" href="quiz.html" role="button">Rock</a>
-            <a class="btn btn-secondary btn-lg" href="quiz.html" role="button">Pop</a>
-            <a class="btn btn-secondary btn-lg" href="quiz.html" role="button">R&B</a><br />
-            <a class="btn btn-secondary btn-lg move" href="quiz.html" role="button">Hip-Hop</a>
-            <a class="btn btn-secondary btn-lg move" href="quiz.html" role="button">EDM</a> <br />
-            <a class="btn btn-secondary btn-lg move" href="quiz.html" role="button">Colonne sonore</a>
+            <a class="btn btn-warning btn-lg" href="quiz.html" role="button">Pop</a>
+            <a class="btn btn-primary btn-lg" href="quiz.html" role="button">R&B</a>
+            <a class="btn btn-dark btn-lg" href="quiz.html" role="button">Hip-Hop</a>
+            <a class="btn btn-info btn-lg" href="quiz.html" role="button">EDM</a>
+            <a class="btn btn-success btn-lg" href="quiz.html" role="button">Colonne sonore</a>
         </section>
+
+        <h3>COMMENTI</h3>
+            <div>
+                <section class="row morepadding">
+                    <img src="images/persona2.jpg">
+                    <h4 class="lower">Marika, 21</h4>
+                    <p class="lower">"Bel sito, l'unica pecca è la mancanza della modalità pvp. Spero venga aggiunta presto."</p>
+                </section>
+
+                <section class="row morepadding">
+                    <img src="images/persona1.jpg">
+                    <h4 class="lower">Lorenzo, 62</h4>
+                    <p class="lower">"Un sito davvero divertente! L'ho consigliato a tutti i miei amici!"</p>
+                </section>
+
+                <section class="row morepadding">
+                    <img src="images/persona3.jpg">
+                    <h4 class="lower">Fabio, 53</h4>
+                    <p class="lower">"Non ho amato molto il design del sito e personalmente avrei aggiunto altre categorie."</p>
+                </section>
+
+                <section class="row morepadding">
+                    <img src="images/fiore.jpg">
+                    <h4 class="lower">Claudia, 45</h4>
+                    <p class="lower">"Wow, facile e interattivo. Vale la pena spendere 15 minuti del proprio tempo per fare una partita."</p>
+                </section>
+            </div>
+
+            <div id="commenti">
+            <p> Commenta anche tu! </p> 
+            <input type="text">
+            <input type="submit" value="Commenta">
+            </div>
+
     </main>
 </body>
 
