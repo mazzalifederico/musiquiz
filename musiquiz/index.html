@@ -19,35 +19,36 @@
     <script src="https://kit.fontawesome.com/f225bbfa4a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f225bbfa4a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixedtop">
                 <div class="container-fluid">
-                    <i class="fa-solid fa-music"></i>
+                   <a class="nav-link blacklink" href="#">MusiQuiz <i class="fa-solid fa-music"></i></a>
 
                     <div class="nav-item">
-                        <a class="nav-link blacklink" href="#">Commenti</a>
+                        <a class="nav-link blacklink" href="#sezcommenti">Commenti <i class="fa-solid fa-comments"></i></a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link blacklink" href="#">About us</a>
+                        <a class="nav-link blacklink" href="aboutus.html">About us <i class="fa-solid fa-people-group"></i></a>
                     </div>
                     <div class="nav-item">
-                        <a class="nav-link disabled blacklink" href="#">PvP</a>
+                        <a class="nav-link disabled blacklink" href="#">PvP <i class="fa-solid fa-skull-crossbones"></i></a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link blacklink" href="#">Login    <i class="fa-solid fa-user"></i></a>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
     <main>
-        <h1>HOME</h1>
         <section id="bottone">
             <p>
-                Benvenuto su Musiquiz! Cliccando sul pulsante GIOCA ORA inizierai una partita con 15 domande estratte
+                Benvenuto su Musiquiz! Cliccando sul pulsante GIOCA ORA inizierai una partita con 10 domande estratte
                 casualmente dalle MusiCategorie
                 ovvero le categorie scelte da noi per metterti alla prova. Scorrendo, invece, potrai selezionare la
                 MusiCategoria che ti piace di più.
@@ -58,49 +59,64 @@
 
         <h2>MUSICATEGORIE</h2>
         <section id="categorie">
-            <p> Selezionando una delle seguenti Musicategorie inizierai una partita con domande relative al genere selezionato. Ogni quiz è composto da 15 domande in cui dovrai mettere alla prova le tue conoscenze sulla musica. Ah e non dimenticare di cliccare il tasto SUBMIT per controllare il tuo punteggio! </p>
-            <a class="btn btn-danger btn-lg" href="quiz.html" role="button">Rock</a>
-            <a class="btn btn-warning btn-lg" href="quiz.html" role="button">Pop</a>
-            <a class="btn btn-primary btn-lg" href="quiz.html" role="button">R&B</a>
-            <a class="btn btn-dark btn-lg" href="quiz.html" role="button">Hip-Hop</a>
-            <a class="btn btn-info btn-lg" href="quiz.html" role="button">EDM</a>
-            <a class="btn btn-success btn-lg" href="quiz.html" role="button">Colonne sonore</a>
+            <p> Selezionando una delle seguenti Musicategorie inizierai una partita con domande relative al genere selezionato. Ogni quiz è composto da 10 domande in cui dovrai mettere alla prova le tue conoscenze sulla musica. Ah e non dimenticare di cliccare il tasto SUBMIT per controllare il tuo punteggio! </p>
+            <a class="btn btn-danger btn-lg" href="rock.html" role="button">Rock</a>
+            <a class="btn btn-warning btn-lg" href="pop.html" role="button">Pop</a>
+            <a class="btn btn-dark btn-lg" href="hiphop.html" role="button">Hip-Hop</a>
+            <a class="btn btn-info btn-lg" href="edm.html" role="button">EDM</a>
         </section>
 
-        <h3>COMMENTI</h3>
+        <h3 id="sezcommenti">COMMENTI</h3>
             <div>
                 <section class="row morepadding">
-                    <img src="images/persona2.jpg">
+                    <img id="profili" src="images/persona2.jpg">
                     <h4 class="lower">Marika, 21</h4>
                     <p class="lower">"Bel sito, l'unica pecca è la mancanza della modalità pvp. Spero venga aggiunta presto."</p>
                 </section>
 
                 <section class="row morepadding">
-                    <img src="images/persona1.jpg">
+                    <img id="profili" src="images/persona1.jpg">
                     <h4 class="lower">Lorenzo, 62</h4>
                     <p class="lower">"Un sito davvero divertente! L'ho consigliato a tutti i miei amici!"</p>
                 </section>
 
                 <section class="row morepadding">
-                    <img src="images/persona3.jpg">
+                    <img id="profili" src="images/persona3.jpg">
                     <h4 class="lower">Fabio, 53</h4>
                     <p class="lower">"Non ho amato molto il design del sito e personalmente avrei aggiunto altre categorie."</p>
                 </section>
 
                 <section class="row morepadding">
-                    <img src="images/fiore.jpg">
+                    <img id="profili" src="images/fiore.jpg">
                     <h4 class="lower">Claudia, 45</h4>
                     <p class="lower">"Wow, facile e interattivo. Vale la pena spendere 15 minuti del proprio tempo per fare una partita."</p>
                 </section>
             </div>
 
             <div id="commenti">
-            <p> Commenta anche tu! </p> 
-            <input type="text">
-            <input type="submit" value="Commenta">
+                <p> Commenta anche tu! </p> 
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Lascia un commento qui" id="floatingTextarea2" style="height: 100px"></textarea>
+                </div>
+                     <input type="submit" value="Invia">
             </div>
 
+            <h5> ABOUT US </h5>
+
     </main>
+    <footer id="footer">
+        <p class="blackfooter">Copyright @2022 | Designed With by <a href="https://github.com/mazzalifederico/musiquiz">Marco Cornacchia & Federico Mazzali</a></p>
+
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style social">
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_email"></a>
+            <a class="a2a_button_whatsapp"></a>
+            <a class="a2a_button_reddit"></a>
+        </div>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+</footer>
 </body>
 
 </html>

@@ -1,0 +1,21 @@
+body {
+	background-color: rgb(58,12,80);
+	font-family: 'Koulen', sans-serif;
+	font-family: 'Lora', serif;
+	padding-top: 20px;
+}
+
+#domanda {
+	font-family: 'Koulen', sans-serif;
+	padding-top: 20px;
+}
+
+.quiz {
+	color: white;
+	text-align: center;
+}
+
+#risultati {
+	padding: 20px 0px;
+	font-size: 25px;
+}
