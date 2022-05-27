@@ -22,11 +22,11 @@
 	</head>
 
 	<body class="quiz">
-		<header> 
+		<header class="fixedtop"> 
 			<h1>MUSIQUIZ CASUALE</h1>
 		</header>
 
-		<main>
+		<main id="lower">
 			<p id="domanda"> Domanda1:</p>
 			<form>
 			  <input type="radio" id="html" name="fav_language" value="HTML">
@@ -126,10 +126,7 @@
 			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
 			  <label for="javascript">JavaScript</label>
 			</form>
-			<form id="risultati" action="result.html">
-  				<input type="submit" value="Risultati">
-			</form>
-
+			<a id="play" class="btn btn-primary btn-lg" href="risultatiquiz.html" role="button">RISULTATI</a>
 		</main>
 
 		<footer id="footer">
