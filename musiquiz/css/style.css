@@ -85,8 +85,32 @@ img {
 
 .lower { 
 	padding-top: 30px;
+	padding-right: 20px;
 	color: white;
+	float: right;
 }
+
+.lowerlorenzo {
+	padding-top: 30px;
+	padding-right: 9em;
+	color: white;
+	float: right;
+}
+
+.lowerfabio {
+	padding-top: 30px;
+	padding-right: 1.3em;
+	color: white;
+	float: right;
+}
+
+.lowerclaudia {
+	padding-top: 30px;
+	padding-right: 2.5em;
+	color: white;
+	float: right;
+}
+
 
 #commenti {
 	padding: 0px 0px 20px 20px ;
@@ -122,9 +146,21 @@ img {
 	font-family: 'Lora', serif;
 	color: black;
 	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 .social {
 	padding-left: 43%;
 	padding-bottom: 20px;
+}
+
+#email {
+	text-align: center;
+	color: black;
+}
+
+#email:hover {
+	text-decoration: underline;
+	color: purple;
 }

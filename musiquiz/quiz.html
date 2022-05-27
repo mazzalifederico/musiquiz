@@ -14,14 +14,20 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
         <meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="">
+    	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="css/style.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	</head>
-	<body>
+
+	<body class="quiz">
 		<header> 
 			<h1>MUSIQUIZ CASUALE</h1>
 		</header>
+
 		<main>
-			<p>Domanda1:</p>
+			<p id="domanda"> Domanda1:</p>
 			<form>
 			  <input type="radio" id="html" name="fav_language" value="HTML">
 			  <label for="html">HTML</label><br>
@@ -31,7 +37,7 @@
 			  <label for="javascript">JavaScript</label>
 			</form>
 
-			<p>Domanda2:</p>
+			<p id="domanda"> Domanda2:</p>
 			<form>
 			  <input type="radio" id="html" name="fav_language" value="HTML">
 			  <label for="html">HTML</label><br>
@@ -41,8 +47,7 @@
 			  <label for="javascript">JavaScript</label>
 			</form>
 
-			<p>Domanda3:</p>
-
+			<p id="domanda"> Domanda3:</p>
 			<form>
 			  <input type="radio" id="html" name="fav_language" value="HTML">
 			  <label for="html">HTML</label><br>
@@ -52,9 +57,7 @@
 			  <label for="javascript">JavaScript</label>
 			</form>
 
-
-			<p>Domanda15:</p>
-
+			<p id="domanda"> Domanda4:</p>
 			<form>
 			  <input type="radio" id="html" name="fav_language" value="HTML">
 			  <label for="html">HTML</label><br>
@@ -63,10 +66,88 @@
 			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
 			  <label for="javascript">JavaScript</label>
 			</form>
-			<form action="result.html">
+
+			<p id="domanda"> Domanda5:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+
+			<p id="domanda"> Domanda6:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+
+			<p id="domanda"> Domanda7:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+
+			<p id="domanda"> Domanda8:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+
+			<p id="domanda"> Domanda9:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+
+			<p id="domanda"> Domanda10:</p>
+			<form>
+			  <input type="radio" id="html" name="fav_language" value="HTML">
+			  <label for="html">HTML</label><br>
+			  <input type="radio" id="css" name="fav_language" value="CSS">
+			  <label for="css">CSS</label><br>
+			  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			  <label for="javascript">JavaScript</label>
+			</form>
+			<form id="risultati" action="result.html">
   				<input type="submit" value="Risultati">
 			</form>
 
 		</main>
+
+		<footer id="footer">
+	        <p class="blackfooter"> SEGUICI E CONDIVIDI IL SITO!</p>
+	        <div class="a2a_kit a2a_kit_size_32 a2a_default_style social">
+	            <a class="a2a_button_facebook"></a>
+	            <a class="a2a_button_twitter"></a>
+	            <a class="a2a_button_email"></a>
+	            <a class="a2a_button_whatsapp"></a>
+	            <a class="a2a_button_reddit"></a>
+	        </div>
+	            <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+	        <p class="blackfooter"> CONTATTACI!</p> 
+	        <p id="email"> E-mail: musiquiz@gmail.com
+
+	        <p class="blackfooter">Copyright @2022 | Designed by <a href="https://github.com/mazzalifederico/musiquiz">Marco Cornacchia & Federico Mazzali</a></p>
+		</footer>
+
 	</body>
 </html>
