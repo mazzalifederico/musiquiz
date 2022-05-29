@@ -1,9 +1,22 @@
 main {
-	text-align: center;
 	font-family: 'Koulen', sans-serif;
 	font-family: 'Lora', serif;
+	padding: 0px 20px;
 }
 
 .big {
+	text-align: center;
 	font-family: 'Koulen', sans-serif;
+}
+
+section {
+	font-size: 1.3em;
+}
+
+.padding {
+	padding-top: 40px;
+}
+
+.lesspadding {
+	padding-top: 20px;
 }

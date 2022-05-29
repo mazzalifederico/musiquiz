@@ -26,21 +26,21 @@ p {
 	margin-top: 1em;
 }
 
-h2 {
+h1 {
 	padding: 30px 20px 15px 20px;
 	font-family: "Koulen", sans-serif;
 	font-size: 3em;
 	color: white;
 }
 
-h3 {
+h2 {
 	font-family: "Koulen", sans-serif;
 	padding: 30px 0px 10px 30px;
 	font-size: 3em;
 	color: white; 
 }
 
-h5 {
+h4 {
 	color: white;
 	padding-left: 20px;
 	font-family: 'Koulen', sans-serif;
