@@ -1,18 +1,26 @@
 p {
 	font-family: "Lora", serif;
-	padding-left: 20px;
 	font-size: 1.5em;
 	color: white;
 }
 
+.container-fluid {
+	font-size: 1.5rem;
+}
+
 #home {
-	padding-top: 60px;
+	padding-top: 100px;
+}
+
+.home2 {
+	padding: 15px 10em 0px 10em;
 }
 
 #play {
 	background-color: purple;
-	padding: 1rem 3rem;
+	padding: 2.5rem 4.5rem;
 	border: solid;
+	font-size: 2.5em;
 }
 
 #play:hover {
@@ -27,29 +35,48 @@ p {
 }
 
 h1 {
-	padding: 30px 20px 15px 20px;
+	padding: 70px 20px 5px 20px;
 	font-family: "Koulen", sans-serif;
 	font-size: 3em;
 	color: white;
+	text-align: center;
 }
 
 h2 {
 	font-family: "Koulen", sans-serif;
-	padding: 30px 0px 10px 30px;
+	padding: 90px 0px 10px 30px;
 	font-size: 3em;
-	color: white; 
+	color: white;
+	text-align: center;
 }
 
 h4 {
 	color: white;
-	padding-left: 20px;
+	padding: 70px 0px 20px 0px;
 	font-family: 'Koulen', sans-serif;
 	font-size: 3em;
+	text-align: center;
+}
+
+h5 {
+	color: white;
+	padding: 70px 0px 20px 0px;
+	font-family: 'Koulen', sans-serif;
+	font-size: 3em;
+	text-align: center;
 }
 
 #categorie { 
 	text-align: center;
 	padding-right: 20px;
+}
+
+.whitebut {
+	padding: 1.5em 3em;
+	margin: 0px 15px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white !important;
 }
 
 body {
@@ -84,40 +111,44 @@ img {
 }
 
 .lower { 
-	padding-top: 30px;
+	padding-top: 80px;
 	padding-right: 20px;
 	color: white;
 	float: right;
 }
 
-.lowerlorenzo {
-	padding-top: 30px;
-	padding-right: 9em;
-	color: white;
-	float: right;
-}
-
 .lowerfabio {
-	padding-top: 30px;
+	padding-top: 80px;
 	padding-right: 1.3em;
 	color: white;
 	float: right;
 }
 
 .lowerclaudia {
-	padding-top: 30px;
+	padding-top: 80px;
 	padding-right: 2.5em;
 	color: white;
 	float: right;
 }
 
-
 #commenti {
 	padding: 0px 0px 20px 20px ;
+	font-size: 1.5em;
 }
 
-.container-fluid {
-	font-size: 1.5rem;
+input {
+	margin-left: 46%;
+	padding: 10px 20px;
+}
+
+#aboutus {
+	text-align: center;
+	padding:0px 10em 40px 10em;
+}
+
+#abstract {
+	text-align: center;
+	padding:0px 10em 40px 10em;
 }
 
 .blacklink {
@@ -127,6 +158,10 @@ img {
 
 .blacklink:hover {
 	color: purple
+}
+
+#profili {
+	padding: 10px;
 }
 
 #profili:hover {
@@ -140,6 +175,7 @@ img {
 
 #footer {
 	background-color: white;
+	padding: 15px 0px;
 }
 
 .blackfooter {

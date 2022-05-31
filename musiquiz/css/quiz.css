@@ -1,6 +1,6 @@
 header {
 	background-color: white;
-	padding: 22px 0px;
+	padding: 35px 0px;
 	font-family: 'Koulen', sans-serif;
 }
 
@@ -13,11 +13,12 @@ body {
 	background-color: rgb(58,12,80);
 	font-family: 'Koulen', sans-serif;
 	font-family: 'Lora', serif;
+	font-size: 1.5em;
 }
 
 #domanda1 {
 	font-family: 'Koulen', sans-serif;
-	padding-top: 75px;
+	padding-top: 20px;
 }
 
 #domanda {
@@ -32,11 +33,11 @@ body {
 
 #risultati {
 	padding: 15px 0px 40px 0px;
-	font-size: 25px;
 }
 
 #footer {
 	background-color: white;
+	padding: 15px 0px;
 }
 
 .blackfooter {
@@ -44,6 +45,7 @@ body {
 	color: black;
 	text-align: center;
 	margin-bottom: 0px;
+	font-weight: bold;
 }
 
 .social {
@@ -79,8 +81,9 @@ body {
 #play {
 	background-color: purple;
 	padding: 1rem 3rem;
+	font-size: 1.5em;
 	border: solid;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	margin-top: 5px;
 }
 

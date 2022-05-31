@@ -9,6 +9,10 @@ main {
 	font-family: 'Koulen', sans-serif;
 }
 
+#wireframe {
+	padding-top: 30px;
+}
+
 section {
 	font-size: 1.3em;
 }
