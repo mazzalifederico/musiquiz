@@ -1,0 +1,216 @@
+p {
+	font-family: "Lora", serif;
+	font-size: 1.5em;
+	color: white;
+}
+
+.container-fluid {
+	font-size: 2rem;
+}
+
+#home {
+	padding-top: 40px;
+	font-family: "Lora", serif;
+}
+
+.home2 {
+	padding: 15px 10em 0px 10em;
+	font-family: "Lora", serif;
+}
+
+#play {
+	background-color: purple;
+	padding: 2.5rem 4.5rem;
+	border: solid;
+	font-size: 2.5em;
+}
+
+#play:hover {
+	background-color: white;
+	color: purple;
+}
+
+#bottone {
+	text-align: center; 
+	padding-right: 20px;
+	margin-top: 1em;
+}
+
+h1 {
+	padding: 110px 20px 0px 0px;
+	font-family: "Koulen", sans-serif;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	padding: 70px 0px 5px 0px;
+	font-family: "Koulen", sans-serif;
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Koulen", sans-serif;
+	padding: 90px 0px 10px 30px;
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+}
+
+h5 {
+	color: white;
+	padding: 70px 0px 20px 0px;
+	font-family: 'Koulen', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+h6 {
+	color: white;
+	padding: 70px 0px 20px 0px;
+	font-family: 'Koulen', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#categorie { 
+	text-align: center;
+	padding-right: 20px;
+}
+
+.whitebut {
+	padding: 1.5em 3em;
+	margin: 0px 15px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white !important;
+}
+
+body {
+	font-family: 'Koulen', sans-serif;
+	font-family: 'Lora', serif;
+	background-color: rgb(58,12,80);
+}
+
+nav {
+	font-family: 'Koulen', sans-serif;
+	color:black;
+	text-decoration: none;
+}
+
+.fixedtop {
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+img {
+	max-width: 30%;
+	padding-left: 10px;
+	border-radius: 100%;
+}
+
+.morepadding {
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+.lower { 
+	padding-top: 80px;
+	padding-right: 20px;
+	color: white;
+	float: right;
+	font-family: "Lora", serif;
+}
+
+.lowerfabio {
+	padding-top: 80px;
+	padding-right: 5em;
+	color: white;
+	float: right;
+	font-family: "Lora", serif;
+}
+
+.lowerclaudia {
+	padding-top: 80px;
+	padding-right: 3.6em;
+	color: white;
+	float: right;
+	font-family: "Lora", serif;
+}
+
+#commenti {
+	padding: 0px 0px 20px 20px ;
+	font-size: 1.5em;
+}
+
+input {
+	margin-left: 46%;
+	padding: 10px 20px;
+}
+
+#aboutus {
+	text-align: center;
+	padding:0px 10em 40px 10em;
+	font-family: "Lora", serif;
+}
+
+#abstract {
+	text-align: center;
+	padding:0px 10em 40px 10em;
+	font-family: "Lora", serif;
+}
+
+.blacklink {
+	color: black;
+	font-weight: bold;
+}
+
+.blacklink:hover {
+	color: purple
+}
+
+#profili {
+	padding: 10px;
+}
+
+#profili:hover {
+	opacity: 0.5;
+	transition: opacity .25s ease-in-out;
+}
+
+.form-floating {
+	padding-bottom: 10px;
+}
+
+#footer {
+	background-color: white;
+	padding: 15px 0px;
+}
+
+.blackfooter {
+	font-family: 'Lora', serif;
+	color: black;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.social {
+	padding-left: 43%;
+	padding-bottom: 20px;
+}
+
+#email {
+	text-align: center;
+	color: black;
+}
+
+#email:hover {
+	text-decoration: underline;
+	color: purple;
+}

@@ -1,0 +1,98 @@
+header {
+	background-color: white;
+	padding: 35px 0px;
+	font-family: 'Koulen', sans-serif;
+}
+
+#title {
+	font-weight: bold;
+	color: purple;
+	font-size: 2em
+}
+
+body {
+	background-color: rgb(58,12,80);
+	font-family: 'Koulen', sans-serif;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+}
+
+#domanda1 {
+	font-family: 'Koulen', sans-serif;
+	padding-top: 20px;
+}
+
+#domanda {
+	font-family: 'Koulen', sans-serif;
+	padding-top: 20px;
+}
+
+.quiz {
+	color: white;
+	text-align: center;
+}
+
+#risultati {
+	padding: 15px 0px 40px 0px;
+}
+
+#footer {
+	background-color: white;
+	padding: 15px 0px;
+}
+
+.blackfooter {
+	font-family: 'Lora', serif;
+	color: black;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.social {
+	padding-left: 43%;
+	padding-bottom: 20px;
+}
+
+#email {
+	text-align: center;
+	color: black;
+}
+
+#email:hover {
+	text-decoration: underline;
+	color: purple;
+}
+
+.small {
+	font-size: 0.7em;
+}
+
+.fixedtop {
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#lower {
+	padding-top: 5.5em;
+}
+
+#play {
+	background-color: purple;
+	padding: 1rem 3rem;
+	font-size: 1.5em;
+	border: solid;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+
+#play:hover {
+	background-color: white;
+	color: purple;
+}
+
+#padding {
+	padding: 0px 20px;
+}
