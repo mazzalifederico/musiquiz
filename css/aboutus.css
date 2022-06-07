@@ -24,3 +24,23 @@ section {
 .lesspadding {
 	padding-top: 20px;
 }
+
+#more {
+	padding-bottom: 4em;
+}
+
+#play {
+	font-family: 'Lora', serif;
+	background-color: black;
+	color: white;
+	padding: 2.5rem 4.5rem;
+	border: solid;
+	font-size: 2.5em;
+	text-decoration: none;
+	margin-left: 39%;
+}
+
+#play:hover {
+	background-color: white;
+	color: black;
+}
