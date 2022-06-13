@@ -37,11 +37,12 @@ p {
 }
 
 h1 {
-	padding: 110px 20px 0px 0px;
+	padding: 110px 5px 0px 0px;
 	font-family: "Koulen", sans-serif;
 	font-size: 5em;
 	color: white;
 	text-align: center;
+	letter-spacing: 0.3em;
 }
 
 h2 {
